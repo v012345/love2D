@@ -5,6 +5,8 @@ function love.load()
     x = 400
     y = 300
     speed = 200
+    font = love.graphics.newFont("font/NotoSansSC-Regular.ttf", 24)
+    love.graphics.setFont(font)
 end
 
 function love.update(dt)
