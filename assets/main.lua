@@ -1,4 +1,12 @@
 if (love.system.getOS() == 'OS X' ) and (jit.arch == 'arm64' or jit.arch == 'arm') then jit.off() end
+-- EmmyLua Debugger: game listens on 9966, press F5 in VS Code to attach
+-- pcall(function()
+--     local emmyDir = os.getenv("USERPROFILE") .. "/.vscode/extensions/tangzx.emmylua-0.9.35-win32-x64/debugger/emmy/windows/x64"
+--     package.cpath = package.cpath .. ";" .. emmyDir .. "/?.dll"
+--     local dbg = require("emmy_core")
+--     dbg.tcpListen("localhost", 9966)
+-- end)
+-- love.timer.sleep(5)
 require "engine/object"
 require "bit"
 require "engine/string_packer"

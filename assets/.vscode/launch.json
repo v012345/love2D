@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "emmylua_new",
+            "request": "launch",
+            "name": "EmmyLua Attach Love2D",
+            "host": "localhost",
+            "port": 9966,
+            "ext": [
+                ".lua",
+                ".lua.txt",
+                ".lua.bytes"
+            ],
+            "ideConnectDebugger": true
+        }
+    ]
+}
