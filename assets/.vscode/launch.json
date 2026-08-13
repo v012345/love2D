@@ -1,17 +1,12 @@
 {
+    "version": "0.2.0",
     "configurations": [
         {
-            "type": "emmylua_new",
+            "type": "love2d",
             "request": "launch",
-            "name": "EmmyLua Attach Love2D",
-            "host": "localhost",
-            "port": 9966,
-            "ext": [
-                ".lua",
-                ".lua.txt",
-                ".lua.bytes"
-            ],
-            "ideConnectDebugger": true
+            "name": "Debug Love2D",
+            "projectRoot": "${workspaceFolder}",
+            "lovePath": "D:\\love2D\\lovec.exe"
         }
     ]
 }
