@@ -8,6 +8,7 @@ if debugger_path then
     assert(loadstring(src, "@debugger.lua"))()
 end
 
+--------------------- 代码分割线 ---------------------
 
 if (love.system.getOS() == 'OS X' ) and (jit.arch == 'arm64' or jit.arch == 'arm') then jit.off() end
 -- EmmyLua Debugger: game listens on 9966, press F5 in VS Code to attach
